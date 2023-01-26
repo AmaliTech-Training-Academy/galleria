@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom' 
 import './slideshow.css'
-import Slideshowdata from "../../starter-code/data.json"
+import Slideshowdata from "../data.json"
 
 
 
