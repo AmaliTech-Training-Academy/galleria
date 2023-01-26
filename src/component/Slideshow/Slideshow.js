@@ -1,6 +1,7 @@
 import React from 'react'
 // import {Link} from 'react-router-dom' 
 import './Slideshow.css'
+import "./Mobile/Mobile.css"
 import Header from './Header'
 import Content from './Content'
 // import img from '../../assets/shared/icon-view-image.svg'

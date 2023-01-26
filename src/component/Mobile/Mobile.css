@@ -2,12 +2,12 @@
 @media screen and (min-width:375px) and (max-width: 480px) {
     /* body */
 .body{
-    /* min-height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     gap: 2rem;
     /* border: 2px solid #A092cc; */
-    /* padding: 2rem; */ 
+    /* padding: 2rem; 
 }
 
 /*Header*/
@@ -303,5 +303,4 @@
     mix-blend-mode: normal;
     opacity: 0.75;
 }
-
-  }
+}
