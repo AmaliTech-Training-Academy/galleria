@@ -1,13 +1,10 @@
 import React from 'react'
-import {Link} from 'react-router-dom' 
-import './slideshow.css'
-import Slideshowsection from './slideshow-section'
-// import Slideshowdata from "../../starter-code/data.json"
+import { Link } from 'react-router-dom'
+import './Slideshow.css'
 
-
-const Slideshow = () => {
+const Header = () => {
   return (
-    <div className='slideshow'>
+    <>
         <div className='header'>
             <div>
                 <svg width="170" height="48" xmlns="http://www.w3.org/2000/svg">
@@ -21,29 +18,8 @@ const Slideshow = () => {
         <div className='divider'>
 
         </div>
-
-        <Slideshowsection/>
-        
-        <div className='footer-divider'>
-
-        </div>
-        <div className='footer'>
-            <div className='footer-details' >
-                <h2>Starry Night</h2>
-                <p>Vincent Van Gogh</p>
-            </div>
-            <div className='footer-nav'>
-                <div className='back-nav' onclick="slideNav(-1)"> 
-                    <svg width="26" height="24" xmlns="http://www.w3.org/2000/svg"><g stroke="#000" fill="none" fill-rule="evenodd"><path d="M24.166 1.843L3.627 12.113l20.539 10.269V1.843z" stroke-width="2"/><path fill="#D8D8D8" d="M.986.5h-1v22.775h1z"/></g></svg>
-                </div>
-                <div className='forward-nav' onclick="slideNav(1)">
-                    <svg width="26" height="24" xmlns="http://www.w3.org/2000/svg"><g stroke="#000" fill="none" fill-rule="evenodd"><path d="M1.528 1.843l20.538 10.27L1.528 22.382V1.843z" stroke-width="2"/><path fill="#D8D8D8" d="M24.708.5h1v22.775h-1z"/></g></svg>    
-                </div>
-            </div>
-        </div>
-
-    </div>
+    </>
   )
 }
 
-export default Slideshow
+export default Header
