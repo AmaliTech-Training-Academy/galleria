@@ -1,0 +1,307 @@
+
+@media screen and (min-width:375px) and (max-width: 480px) {
+    /* body */
+.body{
+    /* min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    /* border: 2px solid #A092cc; */
+    /* padding: 2rem; */ 
+}
+
+/*Header*/
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6rem;
+    justify-content: space-between;
+
+    font-family: "Libre-Baskerville-Bold";
+    font-size: 48px;
+}
+
+.header > *{
+    /* border: 2px solid #A092cc; */
+}
+
+.header :nth-child(2){
+    justify-self: flex-end;
+}
+
+.header-link{
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+
+    text-align: right;
+    letter-spacing: 2.57143px;
+
+    color: #7D7D7D;
+    text-decoration: none;
+}
+
+.header-link:hover{
+ color: #000;
+}
+/*Divider*/
+.divider{
+    border: 1px solid #e5e5e5;
+    flex-basis: 100%;
+}
+
+
+/* Grid-Gallery*/
+.grid-gallery{
+    /* border: 3px solid #111; */
+    /* background-color: #22f; */
+    height: 1390px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: 250px  repeat( 6,1fr); */
+
+
+    gap:2.5rem;
+}
+
+.grid-gallery > *{
+    /* background-color: #7d7d7d; */
+    /* border: 2px solid #3398AA; */
+} 
+
+/*Gallery-images*/
+.gallery-column-1 > * {
+    /* background-color: chocolate;  */
+    /* background-image: url(../assets/starry-night/thumbnail.jpg);
+    background-size: cover; */
+}
+
+.gallery-column-2 > * {
+    background-color: coral; 
+}
+.gallery-column-3 > * {
+    background-color: rgb(188, 157, 145); 
+}
+
+.gallery-column-4 > * {
+    background-color: crimson; 
+}
+
+.gallery-column-1{
+    display: grid;
+    grid-template-rows: 250px 340px 420px 260px;
+    row-gap: 2.5rem;
+    /* border: 2px solid #111111; */
+}
+.gallery-column-2{
+    display: grid;
+    grid-template-rows: 400px 280px 260px 330px;
+    row-gap: 2.5rem;
+}
+.gallery-column-3{
+    display: grid;
+    grid-template-rows: 285px 500px 525px;
+    row-gap: 2.5rem;
+}
+
+.gallery-column-4{
+    display: grid;
+    grid-template-rows: 250px 250px 430px 340px;
+    row-gap: 2.5rem;
+}
+
+.gallery-items{
+}
+
+/*columns-items*/
+.gallery-text > h2{
+    font-family: "Libre-Baskerville-Bold";
+    font-size: 24px;
+}
+.item1 > .gallery-text{
+    text-align: left;
+    width: 200px;
+    margin-top: 170px!important;
+}
+.item2 > .gallery-text{
+    text-align: left;
+    width: 250px;
+    margin-top: 220px!important;
+}
+.item4 > .gallery-text{
+    text-align: left;
+    width: 200px;
+    margin-top: 150px!important;
+}
+.item3 > .gallery-text{
+    width: 180px;
+    text-align: left;
+    margin-top: 310px!important;
+}
+.item5 > .gallery-text{
+    width: 190px;
+    text-align: left;
+    margin-top: 282px!important;
+}
+.item6 > .gallery-text{
+    /* width: 100px; */
+    text-align: left;
+    margin-top: 165px!important;
+}
+.item7 > .gallery-text{
+    width: 200px;
+    text-align: left;
+    margin-top: 180px!important;
+}
+
+.item8 > .gallery-text{
+    margin-top: 250px!important;
+}
+.item9 > .gallery-text{
+    margin-top: 200px!important;
+}
+.item10 > .gallery-text{
+    width: 180px;
+    text-align: left;
+    margin-top: 382px!important;
+}
+.item11 > .gallery-text{
+    margin-top: 445px!important;
+}
+.item12 > .gallery-text{
+    width: 170px;
+    text-align: left;
+    margin-top: 135px!important;
+}
+.item13 > .gallery-text{
+    width: 170px;
+    text-align: left;
+    margin-top: 135px!important;
+}
+.item14 > .gallery-text{
+    width: 170px;
+    text-align: left;
+    margin-top: 310px!important;
+}
+.item15 > .gallery-text{
+    margin-top: 260px!important;
+}
+
+.item1{
+    background-image: url(../assets/starry-night/thumbnail.jpg);
+    background-size: cover;
+}
+
+.item2{
+    background-image: url(../assets/the-storm-on-the-sea-of-galilee/thumbnail.jpg);
+    background-size: cover;
+}
+.item3{
+    background-image: url(../assets/lady-with-an-ermine/thumbnail.jpg);
+    background-size: cover;
+}
+.item4{
+    background-image: url(../assets/the-boy-in-the-red-vest/thumbnail.jpg);
+    background-size: cover;
+}
+
+.item5{
+    background-image: url(../assets/girl-with-pearl-earring/thumbnail.jpg);
+    background-size: cover;
+}
+
+.item6{
+    background-image: url(../assets/the-great-wave-off-kanagawa/thumbnail.jpg);
+    background-size: cover;
+}
+
+.item7{
+    background-image: url(../assets/the-night-cafe/thumbnail.jpg);
+    background-size: cover;
+}
+.item8{
+    background-image: url(../assets/arnolfini-portrait/thumbnail.jpg);
+    background-size: cover;
+}
+.item9{
+    background-image: url(../assets/guernica/thumbnail.jpg);
+    background-size: cover;
+}
+.item10{
+    background-image: url(../assets/van-gogh-self-portrait/thumbnail.jpg);
+    background-size: cover;
+}
+.item11{
+    background-image: url(../assets/mona-lisa/thumbnail.jpg);
+    background-size: cover;
+}
+.item12{
+    background-image: url(../assets/penitent-magdalene/thumbnail.jpg);
+    background-size: cover;
+}
+.item13{
+    background-image: url(../assets/the-sleeping-gypsy/thumbnail.jpg);
+    background-size: cover;
+}
+.item14{
+    background-image: url(../assets/the-basket-of-apples/thumbnail.jpg);
+    background-size: cover;
+}
+.item15{
+    background-image: url(../assets/the-swing/thumbnail.jpg);
+    background-size: cover;
+}
+
+.column > h1 ,p {
+    /* padding-left: 10px; */
+    text-align: left;
+}
+.column{
+    /* background-color: aqua; */
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.column:hover{
+    background-color: #f2f2f2;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+}
+
+
+.gallery-text{
+    margin-top: 150px;
+    /* width: 300px; */
+    height: 83px;
+
+    /* flex-wrap: wrap; */
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    color: #fff;
+    gap: 5px;
+}
+
+
+.gallery-text > p{
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    opacity: 0.75;
+}
+
+  }
