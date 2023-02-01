@@ -10,13 +10,9 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    /* border: 2px solid #A092cc; */
     padding: 2rem;
 }
 
-.body > *{
-    /* border: 2px solid #440911; */
-}
 
 /*Header*/
 .header {
@@ -29,9 +25,7 @@
   font-size: 48px;
 }
 
-.header > *{
-    /* border: 2px solid #A092cc; */
-}
+
 
 .header :nth-child(2){
     justify-self: flex-end;
@@ -52,6 +46,8 @@
 .header-link:hover {
   color: #000;
 }
+
+
 /*Divider*/
 .divider {
   border: 1px solid #e5e5e5;
@@ -60,33 +56,19 @@
 
 /* Grid-Gallery*/
 .grid-gallery {
-  /* border: 3px solid #111; */
-  /* background-color: #22f; */
+
   height: 1390px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  /* grid-template-rows: 250px  repeat( 6,1fr); */
   gap: 2.5rem;
 }
 
 /*Gallery-images*/
 
-.gallery-column-2 > * {
-  background-color: coral;
-}
-.gallery-column-3 > * {
-  background-color: rgb(188, 157, 145);
-}
-
-.gallery-column-4 > * {
-  background-color: crimson;
-}
-
 .gallery-column-1 {
   display: grid;
   grid-template-rows: 250px 340px 420px 260px;
   row-gap: 2.5rem;
-  /* border: 2px solid #111111; */
 }
 .gallery-column-2 {
   display: grid;
@@ -105,9 +87,8 @@
   row-gap: 2.5rem;
 }
 
-/* .gallery-items {
-}
- */
+/* .gallery-items*/
+
 /*columns-items*/
 .gallery-text > h2 {
   font-family: "Libre-Baskerville-Bold";
@@ -182,77 +163,75 @@
 }
 
 .item1 {
-  background-image: url(../assets/starry-night/thumbnail.jpg);
+  background-image: url('../assets/starry-night/thumbnail.jpg');
   background-size: cover;
 }
 
 .item2 {
-  background-image: url(../assets/the-storm-on-the-sea-of-galilee/thumbnail.jpg);
+  background-image: url('../assets/the-storm-on-the-sea-of-galilee/thumbnail.jpg');
   background-size: cover;
 }
 .item3 {
-  background-image: url(../assets/lady-with-an-ermine/thumbnail.jpg);
+  background-image: url('../assets/lady-with-an-ermine/thumbnail.jpg');
   background-size: cover;
 }
 .item4 {
-  background-image: url(../assets/the-boy-in-the-red-vest/thumbnail.jpg);
+  background-image: url('../assets/the-boy-in-the-red-vest/thumbnail.jpg');
   background-size: cover;
 }
 
 .item5 {
-  background-image: url(../assets/girl-with-pearl-earring/thumbnail.jpg);
+  background-image: url('../assets/girl-with-pearl-earring/thumbnail.jpg');
   background-size: cover;
 }
 
 .item6 {
-  background-image: url(../assets/the-great-wave-off-kanagawa/thumbnail.jpg);
+  background-image: url('../assets/the-great-wave-off-kanagawa/thumbnail.jpg');
   background-size: cover;
 }
 
 .item7 {
-  background-image: url(../assets/the-night-cafe/thumbnail.jpg);
+  background-image: url('../assets/the-night-cafe/thumbnail.jpg');
   background-size: cover;
 }
 .item8 {
-  background-image: url(../assets/arnolfini-portrait/thumbnail.jpg);
+  background-image: url('../assets/arnolfini-portrait/thumbnail.jpg');
   background-size: cover;
 }
 .item9 {
-  background-image: url(../assets/guernica/thumbnail.jpg);
+  background-image: url('../assets/guernica/thumbnail.jpg');
   background-size: cover;
 }
 .item10 {
-  background-image: url(../assets/van-gogh-self-portrait/thumbnail.jpg);
+  background-image: url('../assets/van-gogh-self-portrait/thumbnail.jpg');
   background-size: cover;
 }
 .item11 {
-  background-image: url(../assets/mona-lisa/thumbnail.jpg);
+  background-image: url('../assets/mona-lisa/thumbnail.jpg');
   background-size: cover;
 }
 .item12 {
-  background-image: url(../assets/penitent-magdalene/thumbnail.jpg);
+  background-image: url('../assets/penitent-magdalene/thumbnail.jpg');
   background-size: cover;
 }
 .item13 {
-  background-image: url(../assets/the-sleeping-gypsy/thumbnail.jpg);
+  background-image: url('../assets/the-sleeping-gypsy/thumbnail.jpg');
   background-size: cover;
 }
 .item14 {
-  background-image: url(../assets/the-basket-of-apples/thumbnail.jpg);
+  background-image: url('../assets/the-basket-of-apples/thumbnail.jpg');
   background-size: cover;
 }
 .item15 {
-  background-image: url(../assets/the-swing/thumbnail.jpg);
+  background-image: url('../assets/the-swing/thumbnail.jpg');
   background-size: cover;
 }
 
 .column > h1,
 p {
-  /* padding-left: 10px; */
   text-align: left;
 }
 .column {
-  /* background-color: aqua; */
   padding-left: 30px;
   display: flex;
   flex-direction: column;
@@ -267,9 +246,7 @@ p {
 
 .gallery-text {
   margin-top: 150px;
-  /* width: 300px; */
   height: 83px;
-  /* flex-wrap: wrap; */
   align-self: flex-start;
   display: flex;
   flex-direction: column;
@@ -293,7 +270,7 @@ p {
   opacity: 0.75;
 }
 
-/* ************************************************* */
+
 /* Tablet Version************************************* */
 @media only screen and (max-width: 768px) {
   .grid-gallery {
@@ -303,8 +280,6 @@ p {
 }
 
 
-/* *****************************************************
-/*******************************************************/
 /*Mobile Version****************************************/
 /* @media screen and (min-width: 375px) and (max-width: 480px) {
   .body {

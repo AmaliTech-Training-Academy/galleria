@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e6e0f226.css",
+    "main.js": "/static/js/main.e90d130b.js",
+    "static/media/LibreBaskerville-Bold.ttf": "/static/media/LibreBaskerville-Bold.6e5f70731aeed7c6e895.ttf",
+    "static/media/LibreBaskerville-Regular.ttf": "/static/media/LibreBaskerville-Regular.715e9cea90f54d5a4093.ttf",
+    "static/media/thumbnail.jpg": "/static/media/thumbnail.6071ea4bcd6156bd3f87.jpg",
+    "index.html": "/index.html",
+    "static/media/icon-view-image.svg": "/static/media/icon-view-image.5d93085b7174a784f28976407a73d6dd.svg",
+    "main.e6e0f226.css.map": "/static/css/main.e6e0f226.css.map",
+    "main.e90d130b.js.map": "/static/js/main.e90d130b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6e0f226.css",
+    "static/js/main.e90d130b.js"
+  ]
+}
