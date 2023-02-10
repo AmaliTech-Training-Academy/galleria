@@ -42,6 +42,8 @@
 .header-link:hover {
   color: #000;
 }
+
+
 /*Divider*/
 .divider {
   border: 2px solid #e5e5e5;
@@ -57,17 +59,6 @@
 }
 
 /*Gallery-images*/
-
-.gallery-column-2 > * {
-  background-color: coral;
-}
-.gallery-column-3 > * {
-  background-color: rgb(188, 157, 145);
-}
-
-.gallery-column-4 > * {
-  background-color: crimson;
-}
 
 .gallery-column-1 {
   display: grid;
@@ -91,9 +82,8 @@
   row-gap: 2.5rem;
 }
 
-/* .gallery-items {
-}
- */
+/* .gallery-items*/
+
 /*columns-items*/
 .gallery-text > h2 {
   font-family: "Libre-Baskerville-Bold";
@@ -168,67 +158,67 @@
 }
 
 .item1 {
-  background-image: url(../assets/starry-night/thumbnail.jpg);
+  background-image: url('../assets/starry-night/thumbnail.jpg');
   background-size: cover;
 }
 
 .item2 {
-  background-image: url(../assets/the-storm-on-the-sea-of-galilee/thumbnail.jpg);
+  background-image: url('../assets/the-storm-on-the-sea-of-galilee/thumbnail.jpg');
   background-size: cover;
 }
 .item3 {
-  background-image: url(../assets/lady-with-an-ermine/thumbnail.jpg);
+  background-image: url('../assets/lady-with-an-ermine/thumbnail.jpg');
   background-size: cover;
 }
 .item4 {
-  background-image: url(../assets/the-boy-in-the-red-vest/thumbnail.jpg);
+  background-image: url('../assets/the-boy-in-the-red-vest/thumbnail.jpg');
   background-size: cover;
 }
 
 .item5 {
-  background-image: url(../assets/girl-with-pearl-earring/thumbnail.jpg);
+  background-image: url('../assets/girl-with-pearl-earring/thumbnail.jpg');
   background-size: cover;
 }
 
 .item6 {
-  background-image: url(../assets/the-great-wave-off-kanagawa/thumbnail.jpg);
+  background-image: url('../assets/the-great-wave-off-kanagawa/thumbnail.jpg');
   background-size: cover;
 }
 
 .item7 {
-  background-image: url(../assets/the-night-cafe/thumbnail.jpg);
+  background-image: url('../assets/the-night-cafe/thumbnail.jpg');
   background-size: cover;
 }
 .item8 {
-  background-image: url(../assets/arnolfini-portrait/thumbnail.jpg);
+  background-image: url('../assets/arnolfini-portrait/thumbnail.jpg');
   background-size: cover;
 }
 .item9 {
-  background-image: url(../assets/guernica/thumbnail.jpg);
+  background-image: url('../assets/guernica/thumbnail.jpg');
   background-size: cover;
 }
 .item10 {
-  background-image: url(../assets/van-gogh-self-portrait/thumbnail.jpg);
+  background-image: url('../assets/van-gogh-self-portrait/thumbnail.jpg');
   background-size: cover;
 }
 .item11 {
-  background-image: url(../assets/mona-lisa/thumbnail.jpg);
+  background-image: url('../assets/mona-lisa/thumbnail.jpg');
   background-size: cover;
 }
 .item12 {
-  background-image: url(../assets/penitent-magdalene/thumbnail.jpg);
+  background-image: url('../assets/penitent-magdalene/thumbnail.jpg');
   background-size: cover;
 }
 .item13 {
-  background-image: url(../assets/the-sleeping-gypsy/thumbnail.jpg);
+  background-image: url('../assets/the-sleeping-gypsy/thumbnail.jpg');
   background-size: cover;
 }
 .item14 {
-  background-image: url(../assets/the-basket-of-apples/thumbnail.jpg);
+  background-image: url('../assets/the-basket-of-apples/thumbnail.jpg');
   background-size: cover;
 }
 .item15 {
-  background-image: url(../assets/the-swing/thumbnail.jpg);
+  background-image: url('../assets/the-swing/thumbnail.jpg');
   background-size: cover;
 }
 
@@ -273,7 +263,7 @@ p {
   opacity: 0.75;
 }
 
-/* ************************************************* */
+
 /* Tablet Version************************************* */
 @media only screen and (max-width: 768px) {
   .grid-gallery {
